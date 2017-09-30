@@ -1,0 +1,102 @@
+/*Main Elements and Home Page*/
+body { background-image: url(../images/darktexture.jpg); background-repeat: no-repeat;
+background-size: 100% 100%; background-attachment: fixed; }
+
+header { background-image: url(../images/lava5.jpg); background-repeat: no-repeat;
+background-size: 100% 100%; background-attachment: fixed; height: 200px; color: #fff; border-top-left-radius: 20px; border-top-right-radius: 20px; }
+
+h1 { text-align: center; margin-top: 0px; padding-top: 50px; font-family: 'Rock Salt', cursive; font-size: 4em;}
+h3 { font-family: 'Indie-Flower', cursive;}
+h4 { font-family: 'Indie-Flower', cursive;}
+.miniheading { font-family: 'Rock Salt', cursive; color: #800000; }
+.subheading { font-family: 'Indie-Flower', cursive; }
+.footer { background-color: #800000; color: #fff9c2; text-align: center; border-bottom-left-radius: 20px; 
+border-bottom-right-radius: 20px; margin: 0; font-family: rock salt; padding-top: 10px; font-size: .8em;}
+.bottomheading { font-family: 'Indie-Flower', Cursive; text-align: center;}
+.homepic { margin-left: 60px; border-radius: 20px; box-shadow: 0px 0px 30px #800000; }
+.info { color: #800000; margin: 10px; padding: 10px; font-family: 'Indie-Flower', cursive; font-size: 1.25em;}
+.container { background-color: #fff9c2; margin-top: 30px; padding: 0px; border-radius: 23px; margin-bottom: 30px; }
+.nav { background-color: #800000; font-family: rock salt; font-size: 1em; font-weight: bold; text-align: center; }
+.nav-tabs {height: 60px; border: none; font-family: rock salt; font-weight: bold; font-size: .75em; }
+.nav-tabs  li a{ color: #fff9c2; padding-top: 13px; height: 60px; outline: 0; }
+.nav-tabs li a:hover { background-color: #800000; border: none; color: #ff8c00; }
+.active a { color: #000000 !important; padding-bottom: 18px !important; border: none !important; background-color: #fff9c2 !important;}
+.collapsed { color: #fff9c2 !important; outline: 0 !important; font-size: .75em;}
+.collapsed:hover { color: #ff8c00 !important; }
+#myCarousel {width: 60%;  margin: auto; }
+#myCarousel2 { width: 60%; margin: auto;}
+.container-fluid { background-color: #fff9c2; padding: 0px; width: 100%; }
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%; 
+      margin: auto; 
+  }
+
+.navbar-inverse { background-color: #800000;}
+.nav-tabs > li > a { 
+-webkit-border-radius: 0;
+-moz-border-radius: 0;
+border-radius: 0;
+}
+.navbar-toggle { background-color: #800000 !important; border: 1px solid #601407 !important; }
+.navbar-toggle:hover { background-color: #ff8c00 !important;}
+
+/*Regional Coffee Pages*/
+.item { padding: 0px; border-radius: 20px;}
+.item  img{ width: 100%; height: 250px; }
+.links { font-family: 'Rock-Salt', cursive; text-align: center; color: #800000; padding: 20px; font-size: 2em; font-weight: bold; }
+.saleslink { font-family: 'Rock Salt', cursive; font-size: 1em; text-decoration: none; color: #800000; }
+.saleslink:hover { color: #000000; text-decoration: none;}
+.contact { font-weight: bold; color: #800000; font-style: italic; text-shadow: 2px 2px 2px #800000; }
+.contact:hover { text-decoration: none; color: #000000;}
+.heading { text-align: center; margin-top: 30px; margin-bottom: 40px; font-family: 'Rock Salt', cursive; color: #800000; }
+.picture { width: 50%; height: auto; margin: 0 auto; border-radius: 20px; border: 2px solid #800000; box-shadow: 0px 0px 40px #800000;}
+
+/*Coffee For Sale Page*/
+.table-condensed {margin: auto; border-collapse: separate;
+    border-spacing: 2em 2em;}
+.table-condensed tr { margin-bottom: 10px !important;}
+.table-condensed td { border-top: none !important;  }
+.description { font-family: 'Indie-Flower', cursive; color: #800000;  }
+.picture2 { width: 80%; margin: auto; border-radius: 20px; border: 2px solid #800000; box-shadow: 0px 0px 10px #800000; margin-top: 20px; min-width: 70px;}
+.picture2:hover { box-shadow: 0px 0px 50px #800000;}
+.heading2 { text-align: center; margin-top: 40px; font-family: 'Rock Salt', cursive; color: #800000; }
+.view { text-align: center; margin: 5px; font-family: 'Indie-Flower', cursive; color: #800000; font-size: 1em; font-weight: bold;}
+
+/*Contact Page*/
+.form-control:focus {
+  border-color: #880000;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 0, 0, 0.6);}
+.btn { background-color: #800000; color: #fff;}
+.btn:hover { background-color: #000; color: #fff;}
+.form-actions { margin: 0; text-align: center; }
+.picture3 { width: 80%;  margin: auto; border-radius: 20px; border: 2px solid #800000; box-shadow: 0px 0px 50px #800000; vertical-align: bottom;}
+.formstyle { font-family: 'Indie-Flower', cursive; color: #800000; }
+.main { background-color: #fff9c2; width: 100%; margin: auto;}
+
+/*Confirmation Page*/
+.image { height: 500px; width: 600px; margin: auto; display: block; margin-top: 0px;}
+.home:hover { text-decoration: none; color: #000000;}
+
+/*Media Queries*/
+@media (max-width: 480px) { h4{ font-size: .6em; } .carousel-caption{ top: 0; bottom: auto;} .info { font-size: .75em;} }
+@media (min-width: 481px) and (max-width: 768px) { h4{ font-size: .9em;} .info{font-size: .85em;}}
+@media (min-width: 769px) and (max-width: 1823px) { .navbar{ display: none;} .navbar-inverse{display: none;} 
+	.container-fluid{ display: none; } .carousel-caption{ padding-bottom: 0;} .picture {width: 70%;} .info{ font-size: 1em; margin-left: 50px;} 
+	.resize{ width: 90%; margin: auto; margin-top: 30px; margin-bottom: 30px;} .main { margin-bottom: -20px;}}
+@media (max-width: 768px) {.picture{ width: 90%;} .nav-tabs { display: none;}  h1 { font-size: 3.4em;} 
+	.carousel-indicators {display: none;} .container-fluid{ display: none; } .carousel-caption{ top: 0; bottom: auto; }
+	.heading{margin-top: 5px; font-size: 1.5em;} .links { font-size: 1.25em; padding: 0;} .heading2 { font-size: 1.6em;} 
+	.resize{ width: 100%; margin: auto; margin-top: 30px; margin-bottom: 30px;} .main{ margin-top: -20px; margin-bottom: -20px;} 
+	.picture3{ display: none;} .heading2{ margin-top: 20px;} .view { font-size: .75em;}}
+@media (min-width: 1824px) {.container{ display: none;} header{border-top-left-radius: 0px; border-top-right-radius: 0px;} 
+body {background-image: none;} #footer {border-bottom-left-radius: 0px; 
+border-bottom-right-radius: 0px; } #myCarousel {height: 540px; width: 100%;} .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%; height: 540px;
+      margin: auto;
+  } .info {padding-left: 50px; padding-right: 50px;} .nav-tabs { font-size: .9em; } .nav-tabs { height: 65px;} 
+  .nav-tabs li a { height: 65px;} .footer { border-bottom-right-radius: 0px; border-bottom-left-radius: 0px;} 
+  .picture {height: 400px;} h3 {font-size: 2em;} .resize{ width: 100%;} .main {margin-bottom: -20px;}}
+@media (min-width: 1824px) { .navbar-inverse { display: none;} }
