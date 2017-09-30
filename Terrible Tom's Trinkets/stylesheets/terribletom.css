@@ -1,0 +1,85 @@
+/*Home Page and Framework*/
+body { background-image: url(../images/texture.jpg); background-repeat: no-repeat;
+		background-size: 100% 100%; background-attachment: fixed; font-family: Palatino Linotype, Book Antiqua, Palatino, serif;  }
+
+header { background-color: #000; color: #ffffff; text-align: center; font-family: Papyrus; margin-top: 30px; padding-top: 0px;
+ border-top-left-radius: 25px; border-top-right-radius: 25px; display: block; box-shadow: 0px 0px 75px #ffffff; }
+
+h1 { color: #ffffff; font-family: Papyrus; margin-bottom: 0px; font-size: 4.5em; }
+
+.shopname { font-family: papyrus; font-weight: bold; color: #003200; font-size: .85em; }
+h2 { font-size: 1.5em; text-align: center; clear: right; font-family: papyrus; font-weight: bold; }
+main {display: block; box-shadow: 0px 0px 75px #ffffff; overflow: auto; background-color: #ffffff; padding-left: 30px;  margin-bottom: 0px;  padding-right: 30px; padding-bottom: 20px; }
+footer {  background-color: #000000;  text-align: center; 
+		border-bottom-left-radius: 25px; border-bottom-right-radius: 25px; display: block; box-shadow: 0px 0px 75px #ffffff; }
+.validate{ padding-top: 20px; margin-bottom: 5px; }
+.copyright { color: #ffffff; font-style: italic; font-size: .8em; padding-bottom: 10px; text-align: center;}
+.celticimg { float: right; padding-left: 0; margin-left: 0; }
+.intro { font-size: 1.5em;  padding-top: 10px; }
+.news { clear: right; display: block; margin-bottom: 20px; }
+.text1 { text-align: center; font-family: papyrus; font-weight: bold; }
+.greeting { font-family: papyrus; font-weight: bold; }
+.link3 { text-decoration: none; color: #006600;}
+.link3:hover { color: #003200; }
+#slider1 { list-style-type: none; }
+
+.top-bar ul li a { background-color: #003200 !important; }
+.top-bar { background-color: #003200 !important;}
+.name , .title-area{ background-color: #003200 !important; }
+.top-bar-section ul li a:hover { background-color: #006600 !important; }
+
+/*Return Policy Page*/
+.dragonleft { float: left; margin-right: 20px; }
+.returnpolicy{ padding: 20px; }
+.returnpolicy2{ padding: 20px; }
+
+/*Products Page*/
+#title1 { font-size: 1.5em; color: #000000; margin-top: 30px; font-family: Papyrus; font-weight: bold; }
+.description { padding: 0px;  }
+.image { padding: 0px; }
+.productmain{ display: block; box-shadow: 0px 0px 75px #ffffff; overflow: hidden;  background-color: #ffffff; margin: 0px; padding-left: 10px;}
+tr { background-color: #ffffff;}
+td { background-color: #ffffff; }
+table { border: none; }
+
+/*Team Members Page*/
+.teammembers{ font-size: 1em; margin: auto; border: 5px solid #006600; 
+box-shadow: 0px 0px 20px #000; margin-top: 30px; margin-bottom: 20px; }
+.teammembers  tr  td{ padding-top: 20px; padding-bottom: 20px; }
+#mainteam { padding-left: 5px; padding-right: 5px; }
+#teamheading { color: #006600; font-size: 2.7em; font-family: papyrus; margin-top: 25px; font-weight: bold;}
+.floral { text-align: center; }
+
+
+/*Friends Page*/
+.friends{  text-align: center; }
+.friends  li { margin-bottom: 0px; margin-top: 0px; width: 100%; margin-left: 0px; list-style-type: none; margin: auto; }
+.link2 { display: inline-block; padding-right: 10px; }
+.link3 { text-decoration: none;}
+.sculptureleft { float: right; padding: 0; margin: 0; }
+#friendheading { margin-bottom: 0px; font-size: 1.5em; margin-left: 0px; text-align: left; padding-left: 20px; font-family: papyrus; font-weight: bold; }
+
+/*Contact and Confirmation Pages*/
+.inforeceived { font-size: 2em; text-align: center; font-family: papyrus; font-weight: bold; }
+.contactimg { float: right;}
+.button { background-color: #003200 !important;}
+.round { background-color: #003200 !important; }
+.button:hover { background-color: #006600 !important;}
+.round:hover { background-color: #006600 !important; }
+.buttonholder { text-align: center; margin: 0 auto; }
+#homepage { text-align: center; font-family: papyrus; font-weight: bold; }
+
+@media (min-width: 40.0625em) { .top-bar-section ul li{padding-right: 2px; } .top-bar-section ul  li a{ padding-right: 8px !important; padding-left: 8px !important;} 
+.lastlink{ padding-right: 0px !important;}}
+
+@media (min-width: 30.063em) and (max-width: 56.25em ) { .sculptureleft{ display: none; } .returnpolicy { font-size: .9em; } 
+ .returnpolicy2{display: none; }.dragonleft{ display: none; } h1{ font-size: 3.5em;} .intro{ font-size: 1.25em; } .friends{ text-align: center; } 
+ #friendheading{ text-align: center; font-size: 1.25em; } .teammembers tr td { font-size: .75em; } #teamheading { font-size: 1.9em;}
+ .inforeceived { font-size: 1.5em;}}
+
+@media (max-width: 30em) { .intro{ font-size: 1em;} h1 { font-size: 3em; } .celticimg { display: none; } 
+h2{font-size: 1em; } .text1 {text-align: left; } #title1 { font-size: 1em; text-align: center; }
+.returnpolicy{ font-size: .75em; padding: 5px; } .returnpolicy2{ display: none; } #friendheading{ font-size: 1em; padding-left: 5px;} 
+.teammembers tr td { font-size: .6em; } #teamheading { font-size: 1em; text-align: center;} .inforeceived{ font-size: 1.25em;}}
+
+@media (max-width: 23em) { select {font-size: .65em;} }

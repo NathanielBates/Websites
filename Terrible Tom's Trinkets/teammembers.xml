@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="teammembers.xsl"?>
+<directory>
+	<officer>
+		<title>Chief Executive Officer</title>
+		<name>Nathaniel Bates</name>
+		<phone>407-956-8754</phone>
+		<email>nbates@terribletomstrinkets.com</email>
+	</officer>
+	<officer>
+		<title>Chief Financial Officer</title>	
+		<name>Jim Caton</name>
+		<phone>407-956-8763</phone>
+		<email>jcaton@terribletomstrinkets.com</email>
+	</officer>
+	<officer>
+		<title>Chief Information Officer</title>
+		<name>Yolanda Bates</name>
+		<phone>407-956-8742</phone>
+		<email>ybates@terribletomstrinkets.com</email>
+	</officer>
+	<officer>
+		<title>Chief Operating Officer</title>
+		<name>Katie Gregory</name>
+		<phone>407-956-8748</phone>
+		<email>kgregory@terribletomstrinkets.com</email>
+	</officer>
+</directory>
